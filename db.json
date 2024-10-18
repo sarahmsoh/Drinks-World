@@ -1,0 +1,56 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "Wine",
+        "description": "A selection of fine wines from around the world.",
+        "price": 3400,
+        "image":"https://www.shutterstock.com/image-photo/bottle-red-wine-corkscrew-glasses-on-2522152143"
+      }
+
+      {
+        "id": 2,
+        "name": "Vodka",
+        "description": "Smooth vodka perfect for cocktails or sipping.",
+        "price": 2500,
+        "image": "https://nairobidrinks.co.ke/product/absoiut-vodka"
+      }
+
+      {
+        "id": 3,
+        "name": "Beer",
+        "description": "Craft beers from local breweries.",
+        "price": 1800,
+        "image": "https://nairobidrinks.co.ke/product/guinness"
+      }
+
+      {
+        "id": 4,
+        "name": "Monster",
+        "description": "For more energy.",
+        "price": 300,
+        "image": "https://nairobidrinks.co.ke/product/guinness"
+      }
+
+    ],
+    "orders": [
+      {
+        "id": 1,
+        "customerName": "Sarah Muthoni",
+        "email": "sarah.muthoni@student.moringa.com",
+        "address": "123 Main Moi Avenue , Uk",
+        "product": "Wine",
+        "quantity": 2,
+        "status": "Pending"
+      },
+      {
+        "id": 2,
+        "customerName": "Jane Smith",
+        "email": "briannalyons523@gmail.com",
+        "address": "456 Elm TomMboya, Australia",
+        "product": "Vodka",
+        "quantity": 3,
+        "status": "Delivered"
+      }
+    ]
+  }

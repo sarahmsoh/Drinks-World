@@ -1,0 +1,104 @@
+/* General styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('background.jpg');
+    background-size: cover;
+
+}
+
+/* Navbar Styling */
+.navbar {
+    margin-bottom: 50px;
+    color: aquamarine;
+}
+
+.nav-link {
+    font-weight: bold;
+}
+
+/* Header Styling */
+header {
+    background: hsl(145, 100%, 50%);
+    color: #1ec01e;
+    padding: 60px 0;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.5rem;
+}
+
+/* Product Section */
+#products h2 {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.card {
+    margin-bottom: 50px;
+}
+
+.card-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: hsl(212, 64%, 48%);
+}
+
+/* Card Image Styling */
+.card-img {
+    height: 30px;
+    background-size: auto;
+    background-position: center;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Specific background images for each product */
+.wine-image {
+    background-image: url("wine.jpg")
+}
+.vodka-image {
+    background-image: url("vodka.jpeg");
+}
+
+.beer-image {
+    background-image: url("guiness.jpeg");
+}
+
+.monster-image {
+    background-image: url("monster.jpeg");
+}
+/* Order Form */
+#order h2 {
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+#orderForm .form-control, #orderForm .form-select {
+    margin-bottom: 15px;
+}
+
+/*Price Form */
+#price h2 {
+background-color: blueviolet;
+text-align: left;
+margin-bottom: 30px;
+}
+
+#confirmation {
+    background-color: hwb(305 13% 20%);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* Footer Styling */
+footer {
+    background-color: hsl(210, 85%, 39%);
+    padding: 10px;
+}
